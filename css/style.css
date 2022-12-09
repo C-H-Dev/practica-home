@@ -1,0 +1,128 @@
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    color: #1b1b32;;
+    padding: 0;
+    margin: 0;
+}
+/*Menu opciones*/
+.options{
+    display: flex;
+    background-color: #0a0a23;
+    justify-content: space-between;
+    height:1.76rem;
+    width: 100%;   
+    padding: 0.3rem;
+}
+
+.input-search{
+    margin-left: 2rem;
+    width: 30%;
+    background-color: rgb(44, 36, 36);
+    border: none;
+}
+
+
+.contenedor-btn{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;    
+}
+
+.contenedor-btn a:first-child{
+    background-color: #0a0a23;
+    border: 0.1rem solid whitesmoke;   
+    color: whitesmoke;
+    margin-right: 1rem;
+    font-size: 1.1rem; 
+    font-weight: lighter;
+    width: 12%;  
+    padding: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contenedor-btn a:last-child{
+    background-color: rgb(245, 175, 46);
+    border: 0.1rem solid rgb(255, 166, 0);
+    font-family: monospace;
+    font-size: 1.2rem; 
+    padding: 0.2rem;
+    width: 18%;  
+    margin-right: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-btn a:last-child:hover{
+    background-color: lightyellow;
+}
+
+/*Contenido*/
+.content{
+    width: 39%;
+    margin: 0 auto;
+    padding: 2.2rem;
+}
+
+/*Articulo informativo*/
+.about h1, h2, h3{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+.about p{
+    font-size: 1.3rem;
+    font-weight:bold;
+    margin-bottom: 0;
+}
+
+.logo-companies{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;   
+}
+
+.logo-companies img{
+      width: 5rem;
+}
+
+.logo-companies img:first-child{
+    width:2.5rem;
+}
+
+/*Boton articulo*/
+.btn-started{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(245, 175, 46);
+    border: 0.1rem solid rgb(255, 166, 0);
+    padding: 0.6rem;
+    color: black;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.btn-started:hover{
+    background-color: lightyellow;
+}
+
+.picture-content{
+    margin: 2rem 0;    
+}
+
+.picture-content img{
+    width: 100%;
+}
+
+.picture-description{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
